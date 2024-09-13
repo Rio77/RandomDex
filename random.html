@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesPD.css">
+    <script src="js/scriptPD.js" defer></script>
+    <title>RandomDex</title>
+</head>
+<body>
+    <div class="header">
+        <button id="backButton" class="back-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+            </svg>
+        </button>
+        <button id="selectButton"></button>
+        <button id="searchButton" class="icon-button">
+            <svg id="searchIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </button>
+    </div>
+    <div class="full-screen-background" id="fullScreenBackground"></div>
+
+    <button id="listButton" class="icon-button">
+        <svg id="listIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+    </button>
+
+    <div id="listContainer">
+        <div id="listItems"></div>
+    </div>
+
+    <div id="searchContainer">
+        <input type="text" id="searchInput" placeholder="Buscar...">
+        <div id="searchResults"></div>
+    </div>
+
+    <div id="content">
+        <div id="infoContainer"></div>
+    </div>
+</body>
+</html>
