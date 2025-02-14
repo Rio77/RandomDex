@@ -10,8 +10,8 @@ const content = document.getElementById('content');
 const fullScreenBackground = document.getElementById('fullScreenBackground');
 
 const listElements = [
-    'Cabeza', 'Orejas', 'Boca', 'Color', 'Detalles', 'Ojos', 'Cola',
-    'Cuerpo ↑', 'Cuerpo ↓', 'Patas Traseras', 'Patas Delanteras'
+    'Cabeza', 'Orejas', 'Boca', 'Ojos', 'Cola',
+    'Cuerpo ↑', 'Cuerpo ↓', 'Patas Traseras', 'Patas Delanteras', 'Color', 'Detalles'
 ];
 
 let selectedDigimons = new Array(11).fill(null);
