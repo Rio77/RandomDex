@@ -12,8 +12,8 @@ const fullScreenBackground = document.getElementById('fullScreenBackground');
 
 // Lista de elementos para la construcción del Pokémon
 const listElements = [
-    'Cabeza', 'Orejas', 'Boca', 'Color', 'Detalles', 'Ojos', 'Cola',
-    'Cuerpo ↑', 'Cuerpo ↓', 'Patas Traseras', 'Patas Delanteras'
+    'Cabeza', 'Orejas', 'Boca', 'Ojos', 'Cola',
+    'Cuerpo ↑', 'Cuerpo ↓', 'Patas Traseras', 'Patas Delanteras', 'Color', 'Detalles'
 ];
 
 // Array para almacenar los Pokémon seleccionados
