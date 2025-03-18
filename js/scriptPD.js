@@ -13,8 +13,7 @@ const fullScreenBackground = document.getElementById('fullScreenBackground');
 
 // Lista de elementos para la construcción
 const listElements = [
-    'Cabeza', 'Orejas', 'Boca', 'Ojos', 'Cola',
-    'Cuerpo ↑', 'Cuerpo ↓', 'Patas Traseras', 'Patas Delanteras', 'Color', 'Detalles'
+    'Cabeza', 'Cuerpo ↑', 'Cuerpo ↓', 'Cola', 'Orejas', 'Boca', 'Ojos', 'Patas Traseras', 'Patas Delanteras', 'Color', 'Detalles'
 ];
 
 let selectedItems = new Array(11).fill(null);
